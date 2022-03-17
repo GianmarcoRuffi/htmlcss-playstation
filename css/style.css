@@ -86,3 +86,9 @@ header {
 .rounded-5 {
   border-radius: 1rem;
 }
+
+#Thumbs .active {
+  border: 2px solid #509edd;
+  border-radius: 1rem;
+  padding: 2px;
+}
