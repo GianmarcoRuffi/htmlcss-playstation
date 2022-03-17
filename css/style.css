@@ -92,3 +92,12 @@ header {
   border-radius: 1rem;
   padding: 2px;
 }
+
+#Thumbs .img-wrapper {
+  transition: transform 0.5s;
+}
+
+#Thumbs .img-wrapper:hover {
+  transform: translateY(-7px);
+  cursor: pointer;
+}
