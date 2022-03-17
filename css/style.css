@@ -31,7 +31,11 @@ header {
 }
 
 .header-top {
-  color: var(--bs-bg-black);
+  background-color: var(--bs-bg-black);
+}
+
+.header-bottom {
+  background-color: white;
 }
 
 #sony-logo {
