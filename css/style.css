@@ -1,11 +1,31 @@
-/* Colors */
-
-:root {
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors */
+
+:root {
+  --bs-btn-red: #cd3d0f;
+  --bs-sony-blue: #2d64e6;
+  --bs-btn-grey: #363636;
+  --bs-btn-white: #d9dadc;
+  --bs-bg-black: #000000;
+  --bs-bg-dark-grey: #1f1f1f;
+  --bs-bg-light-grey: #bebcbb;
+  --bs-bg-dark-blue: #161c3b;
+  --bs-bg-footer: #00439c;
+  --bs-grey-text: #727272;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+}
+
+.header-top {
+  color: var(--bs-bg-black);
 }
