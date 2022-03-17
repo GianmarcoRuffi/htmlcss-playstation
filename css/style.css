@@ -36,9 +36,13 @@ header {
 
 .header-bottom {
   background-color: white;
+  font-weight: bold;
 }
 
 #sony-logo {
   width: 100px;
   height: auto;
+}
+
+.btn {
 }
