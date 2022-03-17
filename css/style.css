@@ -43,3 +43,7 @@ header {
   width: 100px;
   height: auto;
 }
+
+.lens {
+  height: 20px;
+}
