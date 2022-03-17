@@ -54,6 +54,8 @@ header {
 
 /* Main */
 
+/* Jumbotron Returnal */
+
 #jumbotron-returnal {
   height: 675px;
   margin-top: 110px;
@@ -65,15 +67,22 @@ header {
 }
 
 .hero {
-  max-width: 80%;
+  width: 80%;
 }
 
 .btn-secondary.acquista {
   background-color: var(--bs-btn-red);
 }
 
+/* Thumbs */
+
 #Thumbs {
-  position: relative;
   color: white;
   padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rounded-5 {
+  border-radius: 1rem;
 }
