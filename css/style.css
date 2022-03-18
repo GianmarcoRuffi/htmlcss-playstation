@@ -157,4 +157,20 @@ header {
   cursor: pointer;
 }
 
-/* Playstation 4 */
+/* Playstation Plus */
+
+#playstation-plus {
+  background-color: var(--bs-bg-light-grey);
+  color: #000000;
+}
+
+#playstation-plus .btn-secondary {
+  background-color: #d9dadc;
+  color: #2e65e6;
+  font-weight: bold;
+  border: none;
+}
+
+#playstation-plus .btn-secondary:hover {
+  background-color: #8e97a0a2;
+}
