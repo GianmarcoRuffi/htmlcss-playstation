@@ -115,3 +115,33 @@ header {
 }
 
 /* Controllers */
+
+#controllers .active {
+  border-bottom: 2px solid #2d64e6;
+  cursor: pointer;
+}
+#controllers .active img {
+  filter: opacity(100%);
+}
+
+#controllers .inactive img {
+  filter: opacity(50%);
+  transition: filter 0.5s;
+}
+
+#controllers .inactive:hover img {
+  cursor: pointer;
+  filter: opacity(100%);
+}
+
+/* It takes two Jumbotron */
+
+#jumbotron-takes-two {
+  height: 775px;
+  margin-top: 70px;
+  position: relative;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
