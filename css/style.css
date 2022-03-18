@@ -181,3 +181,9 @@ header {
   background-color: #161c3b;
   color: white;
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--bs-bg-footer);
+}
