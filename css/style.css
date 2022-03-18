@@ -145,3 +145,14 @@ header {
   background-size: cover;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+/* New releases */
+
+#new-releases {
+  background-color: var(--bs-bg-dark-grey);
+  color: white;
+}
+
+#new-releases img:hover {
+  cursor: pointer;
+}
