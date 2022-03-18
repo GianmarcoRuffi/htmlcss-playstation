@@ -70,7 +70,7 @@ header {
   width: 80%;
 }
 
-.btn-secondary.acquista {
+.btn-danger.acquista {
   background-color: var(--bs-btn-red);
 }
 
@@ -109,3 +109,9 @@ header {
   font-size: 20px;
   color: #2d64e6;
 }
+
+#PS5 .btn-primary {
+  background-color: var(--bs-sony-blue);
+}
+
+/* Controllers */
