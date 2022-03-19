@@ -186,4 +186,22 @@ header {
 
 footer {
   background-color: var(--bs-bg-footer);
+  color: white;
+}
+
+.country {
+  height: 20px;
+  width: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
 }
