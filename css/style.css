@@ -134,6 +134,12 @@ header {
   filter: opacity(100%);
 }
 
+@media screen and (min-width: 768px) {
+  #controllers .row {
+    justify-content: space-between;
+  }
+}
+
 /* It takes two Jumbotron */
 
 #jumbotron-takes-two {
@@ -196,6 +202,11 @@ footer {
 
 footer ul {
   list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+footer li {
+  padding-bottom: 0.5rem;
 }
 
 footer li a {
