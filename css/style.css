@@ -62,9 +62,13 @@ header {
   display: none;
 }
 
+/*
+
 header .navbar-light .navbar-nav .nav-link:hover .chevron-wrapper {
   transform: rotate(180deg);
 }
+
+*/
 
 /* Main */
 
@@ -278,12 +282,12 @@ header .extra-dropdown ul li a {
   text-decoration: none;
 }
 
-header .extra-dropdown ul li a:hover {
+header.extra-dropdown ul li a:hover {
   display: inline-block;
   color: #2d64e6;
 }
 
-.extra-dropdown .row .col-1:hover {
+.extra-dropdown.row.col-1:hover {
   box-shadow: 0px 0px 10px grey;
 }
 
