@@ -52,6 +52,20 @@ header {
   background-color: var(--bs-btn-grey);
 }
 
+/* Navbar menu */
+
+.chevron-wrapper {
+  display: inline-block;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover .chevron-wrapper {
+  transform: rotate(180deg);
+}
+
 /* Main */
 
 /* Jumbotron Returnal */
@@ -70,7 +84,7 @@ header {
   width: 80%;
 }
 
-.btn-danger.acquista {
+.btn-danger.buy {
   background-color: var(--bs-btn-red);
 }
 
@@ -207,7 +221,7 @@ footer {
 
 footer ul {
   list-style: none;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   padding-left: 2rem;
 }
 

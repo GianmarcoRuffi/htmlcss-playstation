@@ -58,15 +58,66 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Navbar Dropdowns -->
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Giochi</a>
+                <!-- *********************************** -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Giochi
+                    <div class="chevron-wrapper">
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Servizio 1</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 2</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 3</a>
+                    </li>
+                  </ul>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Hardware</a>
+                <!-- *********************************** -->
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Hardware
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Servizio 1</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 2</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 3</a>
+                    </li>
+                  </ul>
                 </li>
+
+                <!-- *********************************** -->
 
                 <li class="nav-item dropdown">
                   <a
@@ -79,6 +130,7 @@
                   >
                     Servizi
                   </a>
+
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Servizio 1</a></li>
                     <li>
@@ -90,18 +142,91 @@
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Novità</a>
+
+                <!-- *********************************** -->
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Novità
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Servizio 1</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 2</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 3</a>
+                    </li>
+                  </ul>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Fai acquisti</a>
+                <!-- *********************************** -->
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Fai acquisti
+                  </a>
+
+                  <!-- *********************************** -->
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Servizio 1</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 2</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 3</a>
+                    </li>
+                  </ul>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Supporto</a>
+                <!-- *********************************** -->
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Supporto
+                  </a>
+
+                  <!-- *********************************** -->
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Servizio 1</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 2</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Servizio 3</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
+
+              <!-- Navbar My Menu -->
 
               <ul
                 class="navbar-nav me mb-2 mb-lg-0 text-align align-items-center"
@@ -164,11 +289,11 @@
 
                   <p class="lead">
                     <a
-                      class="btn btn-danger rounded-pill btn-lg acquista"
+                      class="btn buy btn-danger rounded-pill btn-lg"
                       href="#"
                       role="button"
-                      >Acquista ora</a
-                    >
+                      >Acquista ora
+                    </a>
                   </p>
                 </div>
               </div>
@@ -554,7 +679,7 @@
             <div
               class="py-3 col-sm-12 col-md-6 d-flex flex-column justify-content-center"
             >
-              <div class="col-md-6 col-8">
+              <div class="col-md-8 col-8">
                 <img
                   src="./img/ps-plus-logo.png"
                   alt="ps plus games"
@@ -636,7 +761,7 @@
             <div
               class="py-3 col-sm-12 col-md-6 d-flex flex-column justify-content-center"
             >
-              <div class="col-md-6 col-8">
+              <div class="col-md-8 col-8">
                 <img
                   src="./img/ps-now-logo-two-column.png"
                   alt="ps plus games"
@@ -741,7 +866,7 @@
           <div class="col-lg-2 d-flex">
             <ul>
               <li><a href="#">Termini di servizio di PSN</a></li>
-              <li><a href="#">Termini di annullamento del PS Store</a></li>
+              <li><a href="#">Termini di annullamento</a></li>
               <li><a href="#">Avvertenze per la salute</a></li>
               <li><a href="#">Classificazioni per età</a></li>
               <li><a href="#">Termini d'uso del Software</a></li>
@@ -759,7 +884,7 @@
           </div>
         </div>
 
-        <div class="row py-3">
+        <div class="row py-2">
           <div class="col-lg-6">
             <div class="col-3">
               <img src="./img/sie-logo.svg" alt="sony-logo" class="img-fluid" />
