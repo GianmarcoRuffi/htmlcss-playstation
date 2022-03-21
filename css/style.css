@@ -196,7 +196,7 @@ footer {
 }
 
 .ps-logo {
-  width: 90px;
+  width: 120px;
   height: auto;
 }
 
@@ -208,6 +208,14 @@ footer {
 footer ul {
   list-style: none;
   margin-bottom: 0.5rem;
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  footer ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 
 footer li {
