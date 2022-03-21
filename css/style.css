@@ -286,3 +286,8 @@ header .extra-dropdown ul li a:hover {
 .extra-dropdown .row .col-1:hover {
   box-shadow: 0px 0px 10px grey;
 }
+
+ul.dropdown-menu.show {
+  background-color: inherit;
+  border: none;
+}
